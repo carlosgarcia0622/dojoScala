@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/home/estudiantes/cesar.munozr/IdeaProjects/dojoScala/src/main/scala/main.scala:63:48: javax.swing.text.html.Option does not take type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m    def fetchStudents(courseId: String):Future[Option[List[Student]]] = Future{[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/estudiantes/cesar.munozr/IdeaProjects/dojoScala/src/main/scala/main.scala:66:28: Java class javax.swing.text.html.Option is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m        .flatMap(course => Option(course.students))[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/estudiantes/cesar.munozr/IdeaProjects/dojoScala/src/main/scala/main.scala:77:39: javax.swing.text.html.Option does not take type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m            val maybeStudents: Future[Option[List[Student]]] = Operation.fetchStudents(courseId.toString)[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/estudiantes/cesar.munozr/IdeaProjects/dojoScala/src/main/scala/main.scala:79:13: not found: value onSucces[0m
+[0m[[0m[31merror[0m] [0m[0m            onSucces(maybeStudents){[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
